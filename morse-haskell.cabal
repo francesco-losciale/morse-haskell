@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fd93b95c18c2c87e3a167fca90cfdd89e9fa66fb76b2598bb5963275429451df
+-- hash: 3ff8b36f99b999c0d59c35357b69f7e14cd4f6696cb112ee155d01b299197460
 
 name:           morse-haskell
 version:        0.1.0.0
@@ -28,12 +28,14 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Morse
   other-modules:
       Paths_morse_haskell
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , containers
   default-language: Haskell2010
 
 executable morse-haskell-exe
