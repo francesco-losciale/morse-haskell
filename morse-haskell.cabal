@@ -27,7 +27,6 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
       Morse
   other-modules:
       Paths_morse_haskell
