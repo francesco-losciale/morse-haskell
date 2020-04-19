@@ -11,6 +11,12 @@ Run
 
 `stack exec morse-haskell-exe`
 
+`echo "hi" | stack exec morse-haskell-exe to`
+
+`echo ".... .." | stack exec morse-haskell-exe from`
+
+
+
 Test
 
 `stack ghci morse-haskell:morse-haskell-test`
